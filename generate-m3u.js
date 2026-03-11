@@ -18,7 +18,7 @@ const CONFIG = {
   }
 };
 
-// 请求封装：不移除解压、但不主动要求压缩，避免截断丢失内容
+// 请求封装：不解压
 function fetchWithTimeout(url, timeout = CONFIG.timeout) {
   return new Promise((resolve, reject) => {
     const client = url.startsWith('https') ? https : http;
@@ -35,7 +35,6 @@ function fetchWithTimeout(url, timeout = CONFIG.timeout) {
         return reject(new Error(`HTTP ${res.statusCode}`));
       }
 
-      // 直接拼接数据，不解压（你说网页不需要解压）
       res.on('data', chunk => data.push(chunk));
       res.on('end', () => {
         const buffer = Buffer.concat(data);
@@ -62,7 +61,6 @@ async function getPlatforms() {
   }
 
   const platforms = [];
-  // 修复：更宽松、更准的正则
   const regex = /<div class="category-title">([\s\S]*?)<\/div>[\s\S]*?href="([^"]+)"[^>]*>查看主播/g;
   let match;
 
@@ -80,13 +78,12 @@ async function getPlatforms() {
   return platforms;
 }
 
-// 获取主播源（修复正则，不漏抓）
+// 获取主播源
 async function getStreamers(platform) {
   try {
     const html = await fetchWithTimeout(platform.url);
     const streamers = [];
 
-    // 修复：更健壮、不丢流的正则
     const regex = /<td class="col-anchor">([\s\S]*?)<\/td>[\s\S]*?videoUrl=([^&]+)/g;
     let match;
 
@@ -122,13 +119,13 @@ async function processBatch(items, batchSize, processor) {
   return results;
 }
 
-// 生成 M3U（真正按【平台+名称+地址】三重去重，不乱丢）
+// 生成 M3U：【只要同名就去重】
 async function generateM3U() {
   try {
     const platforms = await getPlatforms();
     const results = await processBatch(platforms, CONFIG.concurrentLimit, getStreamers);
 
-    const uniqueKey = new Set();
+    const existedTitles = new Set(); // 只记录标题
     let m3uContent = "#EXTM3U\n";
     let valid = 0, dup = 0;
 
@@ -138,14 +135,13 @@ async function generateM3U() {
         const addr = s.address.trim();
         if (!addr) continue;
 
-        // 三重去重：平台 + 标题 + 地址（真正不丢、不乱删）
-        const key = `${platform.name}||${cleanTitle}||${addr}`;
-        if (uniqueKey.has(key)) {
+        // 只要标题重复，直接跳过
+        if (existedTitles.has(cleanTitle)) {
           dup++;
           continue;
         }
-        uniqueKey.add(key);
 
+        existedTitles.add(cleanTitle);
         m3uContent += `#EXTINF:-1 tvg-id="${cleanTitle}" tvg-name="${cleanTitle}" group-title="${platform.name}",${cleanTitle}\n${addr}\n`;
         valid++;
       }
@@ -155,7 +151,7 @@ async function generateM3U() {
 
     console.log('\n======== 生成完成 ========');
     console.log('有效源：', valid);
-    console.log('重复：', dup);
+    console.log('重复（同名）：', dup);
     console.log('文件保存：live.m3u');
 
   } catch (e) {
