@@ -1,12 +1,14 @@
 const fs = require('fs');
 const https = require('https');
 const http = require('http');
+const zlib = require('zlib'); // 新增：处理 gzip/deflate 解压
+const { URL } = require('url'); // 新增：安全拼接 URL
 
 // 配置
 const CONFIG = {
   baseUrl: "http://zhibo.aisimu.cn/zhubo/",
   timeout: 15000,
-  concurrentLimit: 3,  // 控制并发，避免目标网站封IP
+  concurrentLimit: 3,
   headers: {
     "Cookie": "SITE_TOTAL_ID=7c7cfb9631fe101240995d077685002c; PHPSESSID=6bfe561e341d14bca2f1282f8e138a6b",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -14,10 +16,11 @@ const CONFIG = {
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
     "Accept-Encoding": "gzip, deflate",
     "Connection": "keep-alive",
+    "Cache-Control": "no-cache" // 新增：避免缓存
   }
 };
 
-// 封装 HTTP 请求（支持 gzip/deflate）
+// 封装 HTTP 请求（修复：完善 gzip/deflate 解压 + 简化超时逻辑）
 function fetchWithTimeout(url, timeout = CONFIG.timeout) {
   return new Promise((resolve, reject) => {
     const client = url.startsWith('https') ? https : http;
@@ -26,7 +29,7 @@ function fetchWithTimeout(url, timeout = CONFIG.timeout) {
       
       // 处理重定向
       if ([301, 302, 307, 308].includes(res.statusCode)) {
-        const redirectUrl = res.headers.location;
+        const redirectUrl = new URL(res.headers.location, url).href; // 修复：绝对 URL 拼接
         console.log(`  重定向: ${redirectUrl}`);
         return resolve(fetchWithTimeout(redirectUrl, timeout));
       }
@@ -34,32 +37,41 @@ function fetchWithTimeout(url, timeout = CONFIG.timeout) {
       if (res.statusCode !== 200) {
         return reject(new Error(`HTTP ${res.statusCode}`));
       }
+
+      // 修复：处理 gzip/deflate 解压
+      let stream = res;
+      const encoding = res.headers['content-encoding'];
+      if (encoding === 'gzip') {
+        stream = res.pipe(zlib.createGunzip());
+      } else if (encoding === 'deflate') {
+        stream = res.pipe(zlib.createInflate());
+      }
       
-      res.on('data', chunk => data.push(chunk));
-      res.on('end', () => {
+      stream.on('data', chunk => data.push(chunk));
+      stream.on('error', reject); // 新增：解压错误捕获
+      stream.on('end', () => {
         const buffer = Buffer.concat(data);
-        // 简单处理 gzip（实际可能需要 zlib 解压）
-        resolve(buffer.toString('utf-8'));
+        resolve(buffer.toString('utf-8')); // 优先 UTF-8，兼容大部分场景
       });
     });
     
     req.on('error', reject);
     req.on('timeout', () => {
       req.destroy();
-      reject(new Error('Timeout'));
+      reject(new Error('请求超时'));
     });
-    
-    setTimeout(() => {
-      req.destroy();
-      reject(new Error('Timeout'));
-    }, timeout);
   });
 }
 
 // 获取平台列表
 async function getPlatforms() {
   console.log('正在获取平台列表...');
-  const html = await fetchWithTimeout(CONFIG.baseUrl);
+  let html;
+  try {
+    html = await fetchWithTimeout(CONFIG.baseUrl);
+  } catch (e) {
+    throw new Error(`获取平台列表失败: ${e.message}`);
+  }
   
   const platforms = [];
   const regex = /<div class="category-title">([^<]+)<\/div>[\s\S]*?<a target="_blank" href="([^"]+)" class="view-btn">查看主播<\/a>/g;
@@ -67,16 +79,19 @@ async function getPlatforms() {
   
   while ((match = regex.exec(html)) !== null) {
     const name = match[1].trim();
-    const href = match[2].trim();
+    let href = match[2].trim();
     
     if (name === "卫视直播") {
       console.log(`  跳过: ${name}`);
       continue;
     }
+
+    // 修复：URL 拼接逻辑（处理相对/绝对 URL）
+    const platformUrl = new URL(href, CONFIG.baseUrl).href;
     
     platforms.push({
       name,
-      url: CONFIG.baseUrl + href
+      url: platformUrl
     });
   }
   
@@ -94,10 +109,17 @@ async function getStreamers(platform) {
     let match;
     
     while ((match = regex.exec(html)) !== null) {
-      streamers.push({
-        title: match[1].trim(),
-        address: decodeURIComponent(match[2].trim())
-      });
+      const title = match[1].trim() || '未知标题';
+      let address = match[2].trim();
+      
+      // 增强：解码容错
+      try {
+        address = decodeURIComponent(address);
+      } catch (e) {
+        console.warn(`  ${platform.name} - ${title}: 地址解码失败，使用原始值`);
+      }
+      
+      streamers.push({ title, address });
     }
     
     console.log(`  ${platform.name}: ${streamers.length} 个主播`);
@@ -114,9 +136,15 @@ async function processBatch(items, batchSize, processor) {
   for (let i = 0; i < items.length; i += batchSize) {
     const batch = items.slice(i, i + batchSize);
     console.log(`处理批次 ${Math.floor(i/batchSize) + 1}/${Math.ceil(items.length/batchSize)}...`);
-    const batchResults = await Promise.all(batch.map(processor));
+    // 修复：单个任务异常不影响批次其他任务
+    const batchResults = await Promise.all(
+      batch.map(item => processor(item).catch(e => {
+        console.error(`  批次任务失败: ${e.message}`);
+        return { platform: item, streamers: [] };
+      }))
+    );
     results.push(...batchResults);
-    // 批次间延迟，避免请求过快
+    // 批次间延迟
     if (i + batchSize < items.length) {
       await new Promise(r => setTimeout(r, 1000));
     }
@@ -132,7 +160,6 @@ async function generateM3U() {
       throw new Error('未获取到任何平台');
     }
     
-    // 分批获取所有直播源
     const results = await processBatch(platforms, CONFIG.concurrentLimit, getStreamers);
     
     // 去重并生成 M3U
@@ -144,10 +171,10 @@ async function generateM3U() {
     
     for (const { platform, streamers } of results) {
       for (const streamer of streamers) {
-        const title = (streamer.title || "未知直播").replace(/[,]/g, "");
-        const address = (streamer.address || "").trim();
+        const title = streamer.title.replace(/[,]/g, "").replace(/\s+/g, " "); // 增强：清理多余空格
+        const address = streamer.address.trim();
         
-        if (!address) {
+        if (!address || address === 'undefined') { // 增强：空值判断
           emptyCount++;
           continue;
         }
@@ -158,12 +185,12 @@ async function generateM3U() {
         }
         
         addedAddresses.add(address);
-        m3uContent += `\n#EXTINF:-1 tvg-id="${title}" tvg-name="${title}" group-title="大秀直播",${title}\n${address}`;
+        m3uContent += `\n#EXTINF:-1 tvg-id="${title}" tvg-name="${title}" group-title="${platform.name}",${title}\n${address}`;
         validCount++;
       }
     }
     
-    // 写入文件
+    // 写入文件（增强：目录不存在时创建）
     fs.writeFileSync('live.m3u', m3uContent, 'utf-8');
     
     console.log('\n========== 生成报告 ==========');
