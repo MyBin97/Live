@@ -1,0 +1,46 @@
+name: Update M3U Playlist
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # 每30分钟执行一次
+  workflow_dispatch:  # 允许手动触发
+  push:
+    branches: [ main ]  # 推送时触发（首次部署用）
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 允许写入仓库
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    
+    - name: Generate M3U
+      run: node generate-m3u.js
+    
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add live.m3u
+        git commit -m "Update M3U playlist - $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
