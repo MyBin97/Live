@@ -68,7 +68,11 @@ async function getPlatforms() {
     const name = match[1].trim().replace(/\s+/g, ' ');
     let href = match[2].trim();
 
-    if (name.includes("卫视")) continue;
+    // 跳过 卫视 和 欧美
+    if (name.includes("卫视") || name.includes("欧美")) {
+      console.log(`  跳过: ${name}`);
+      continue;
+    }
 
     const platformUrl = new URL(href, CONFIG.baseUrl).href;
     platforms.push({ name, url: platformUrl });
@@ -87,7 +91,7 @@ async function getStreamers(platform) {
     const regex = /<td class="col-anchor">([\s\S]*?)<\/td>[\s\S]*?videoUrl=([^&]+)/g;
     let match;
 
-    while ((match = regex.exec(html)) !== null) {
+    while ((match = regex.exec(html))) {
       const title = match[1].trim() || '未知主播';
       let address = match[2].trim();
 
@@ -119,13 +123,13 @@ async function processBatch(items, batchSize, processor) {
   return results;
 }
 
-// 生成 M3U：【只要同名就去重】
+// 生成 M3U：只要同名就去重
 async function generateM3U() {
   try {
     const platforms = await getPlatforms();
     const results = await processBatch(platforms, CONFIG.concurrentLimit, getStreamers);
 
-    const existedTitles = new Set(); // 只记录标题
+    const existedTitles = new Set();
     let m3uContent = "#EXTM3U\n";
     let valid = 0, dup = 0;
 
@@ -135,7 +139,6 @@ async function generateM3U() {
         const addr = s.address.trim();
         if (!addr) continue;
 
-        // 只要标题重复，直接跳过
         if (existedTitles.has(cleanTitle)) {
           dup++;
           continue;
