@@ -1,8 +1,8 @@
 name: Update M3U Playlist
 
 on:
-schedule:
-    - cron: '0 */1 * * *'  # 每1小时执行一次（整点执行，如0:00、1:00、2:00...）
+  schedule:
+    - cron: '0 */1 * * *'  
   workflow_dispatch:  # 允许手动触发
   push:
     branches: [ main ]  # 推送时触发（首次部署用）
