@@ -9,7 +9,7 @@ const CONFIG = {
   timeout: 15000,
   concurrentLimit: 3,
   headers: {
-    "Cookie": "SITE_TOTAL_ID=7c7cfb9631fe101240995d077685002c; PHPSESSID=6bfe561e341d14bca2f1282f8e138a6b",
+    "Cookie": "PHPSESSID=ae097f681b094c092269c0df58648713",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
