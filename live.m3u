@@ -1,227 +1,257 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="P.P" tvg-name="P.P" group-title="映客",P.P
-http://live-pull-zego.ikstatic.cn/inkemain/1781653202964525.flv?stream_id=1781653202964525&stream_type=zego&codecInfo=8192&ikFastRate=1.1&ikMaxBuf=3600&ikMinBuf=2900&ikHost=ws&ikSlowRate=0.9&wsSecret=8a8ce2e85cf450b0183b788d0ceeb1b0&wsABStime=6a333052
-#EXTINF:-1 tvg-id="茱丽叶" tvg-name="茱丽叶" group-title="卡哇伊",茱丽叶
-http://lasehbehqr.sqfkkj.top/live/cx_374370.flv
-#EXTINF:-1 tvg-id="原味奶茶" tvg-name="原味奶茶" group-title="卡哇伊",原味奶茶
-http://1lladhaepwwsvi.sqfkkj.top/live/cx_372584.flv
-#EXTINF:-1 tvg-id="糯米团呢" tvg-name="糯米团呢" group-title="卡哇伊",糯米团呢
-http://shladzetmsinet.banmabh.xyz/live/cx_385962.flv?wsSecret=4b9f08d39099d3f23b7ec59708ae1f3a&wsTime=1781649399
-#EXTINF:-1 tvg-id="奶油布丁" tvg-name="奶油布丁" group-title="卡哇伊",奶油布丁
-http://77bo.xn--kcrp02i.com/live/cx_16367.flv?wsSecret=26caf8a554cebe9be2d5f11a0eda1e4d&wsTime=1781653490
-#EXTINF:-1 tvg-id="心语" tvg-name="心语" group-title="卡哇伊",心语
-http://77bo.xn--4lw519c.com/live/cx_16701.flv?wsSecret=51b31fe27d0a2a9bdcc130e85214b437&wsTime=1781654086
-#EXTINF:-1 tvg-id="要七七" tvg-name="要七七" group-title="卡哇伊",要七七
-http://xlainetkweqmt.banmabh.xyz/live/cx_375628.flv?wsSecret=9c4ce3b32ec9698c108d67eccc012a89&wsTime=1781652270
-#EXTINF:-1 tvg-id="05后少女专场@" tvg-name="05后少女专场@" group-title="卡哇伊",05后少女专场@
-http://77bo.xn--uw0as83a.com/live/cx_30.flv?wsSecret=a71f9fe0678c9ab72695859b011cc228&wsTime=1781516222
-#EXTINF:-1 tvg-id="小猪猪儿" tvg-name="小猪猪儿" group-title="卡哇伊",小猪猪儿
-http://huerbetlwla.yueyongli.top/live/cx_385697.flv
-#EXTINF:-1 tvg-id="按摩馆的秘密@" tvg-name="按摩馆的秘密@" group-title="卡哇伊",按摩馆的秘密@
-http://77bo.xn--fhqv92p.com/live/cx_15652.flv?wsSecret=8cbb50dd95ec0b790193f96c73f37f32&wsTime=1781581430
-#EXTINF:-1 tvg-id="精彩大秀@" tvg-name="精彩大秀@" group-title="卡哇伊",精彩大秀@
-http://77bo.xn--4lw519c.com/live/cx_15861.flv?wsSecret=af17a16d386126c73f798ae5a1452fd7&wsTime=1781329725
-#EXTINF:-1 tvg-id="梦奇欢迎你" tvg-name="梦奇欢迎你" group-title="卡哇伊",梦奇欢迎你
+#EXTINF:-1 tvg-id="老鱼%3F%3F" tvg-name="老鱼%3F%3F" group-title="映客",老鱼%3F%3F
+http://extlive-pull-ws.inke.cn/live/1781668559084247.flv?auth_version=1&codecInfo=8192&dpSrc=-1&from=hallfe&ikHost=ws&ikLiveType=multiplayer&ikLog=1&md5sum=c8ce&pushHost=ext.zego.link.inke.cn&timestamp=1781675673
+#EXTINF:-1 tvg-id="小明交友厅" tvg-name="小明交友厅" group-title="映客",小明交友厅
+http://extlive-pull-ws.inke.cn/live/1781668703988531.flv?auth_version=1&codecInfo=8192&dpSrc=-1&from=hallfe&ikHost=ws&ikLiveType=multiplayer&ikLog=1&md5sum=02bf&pushHost=zego-sixlive.link.inke.cn&timestamp=1781675673
+#EXTINF:-1 tvg-id="諾崽崽" tvg-name="諾崽崽" group-title="卡哇伊",諾崽崽
+http://osueaetkala1.yueyongli.top/live/cx_374784.flv
+#EXTINF:-1 tvg-id="小娜美m" tvg-name="小娜美m" group-title="卡哇伊",小娜美m
+http://lasuimakertname.abrillantlee.top/live/cx_385830.flv
+#EXTINF:-1 tvg-id="琦琦很可爱" tvg-name="琦琦很可爱" group-title="卡哇伊",琦琦很可爱
+http://1lladhaepwwsvi.sqfkkj.top/live/cx_385229.flv
+#EXTINF:-1 tvg-id="迪士尼公主" tvg-name="迪士尼公主" group-title="卡哇伊",迪士尼公主
+http://laoisbfhshakmahs.banmabh.xyz/live/cx_385646.flv
+#EXTINF:-1 tvg-id="野菜呀" tvg-name="野菜呀" group-title="卡哇伊",野菜呀
+http://lashfoaw064.abrillantlee.top/live/cx_365446.flv
+#EXTINF:-1 tvg-id="Eva" tvg-name="Eva" group-title="卡哇伊",Eva
+http://77bo.xn--vuqy52q.com/live/cx_16159.flv?wsSecret=5cfcd53abc07d2dbf7360153defa8f49&wsTime=1781668544
+#EXTINF:-1 tvg-id="可爱的小白" tvg-name="可爱的小白" group-title="卡哇伊",可爱的小白
+http://xzqppsukemrla.jinkangyl.com/live/cx_375594.flv?wsSecret=056e6be548f154a45abdd152c2f6498d&wsTime=1781663030
+#EXTINF:-1 tvg-id="满满金" tvg-name="满满金" group-title="卡哇伊",满满金
+http://huerbetlwla.yueyongli.top/live/cx_381035.flv
+#EXTINF:-1 tvg-id="大耳朵" tvg-name="大耳朵" group-title="卡哇伊",大耳朵
+http://lasywepoinetas1.jinkangyl.com/live/cx_384764.flv
+#EXTINF:-1 tvg-id="山竹、" tvg-name="山竹、" group-title="卡哇伊",山竹、
+http://huerbetlwla.yueyongli.top/live/cx_377292.flv
+#EXTINF:-1 tvg-id="你又脸红了" tvg-name="你又脸红了" group-title="卡哇伊",你又脸红了
 https://hjfghjghjghj05.oss-ap-northeast-2.aliyuncs.com/zxcvb/1.flv
-#EXTINF:-1 tvg-id="缅北猪仔@" tvg-name="缅北猪仔@" group-title="卡哇伊",缅北猪仔@
-http://77bo.xn--fhqv92p.com/live/cx_15601.flv?wsSecret=baae9c936d854fd81cf04e6c4d362207&wsTime=1781581332
-#EXTINF:-1 tvg-id="软萌" tvg-name="软萌" group-title="卡哇伊",软萌
-http://77bo.xn--4lw519c.com/live/cx_16295.flv?wsSecret=db3fb905050a7eda7bf33bda3a6f7885&wsTime=1781640390
-#EXTINF:-1 tvg-id="精彩剧情@" tvg-name="精彩剧情@" group-title="卡哇伊",精彩剧情@
-http://77bo.xn--uw0as83a.com/live/cx_16437.flv?wsSecret=41effe364f27206194b8113687ca54f8&wsTime=1781329895
-#EXTINF:-1 tvg-id="纯牛奶加糖" tvg-name="纯牛奶加糖" group-title="卡哇伊",纯牛奶加糖
-http://77bo.xn--t8w422e.com/live/cx_16714.flv?wsSecret=39f647226fb238e25ccacc10fbbc2404&wsTime=1781640056
-#EXTINF:-1 tvg-id="咕噜泡" tvg-name="咕噜泡" group-title="卡哇伊",咕噜泡
-http://77bo.xn--4lw519c.com/live/cx_16596.flv?wsSecret=04aa7183438074b164a2009277d767a8&wsTime=1781640138
-#EXTINF:-1 tvg-id="好运姐" tvg-name="好运姐" group-title="卡哇伊",好运姐
-http://77bo.xn--kcrp02i.com/live/cx_16256.flv?wsSecret=f9744497cb2ffa67b8a786170457591e&wsTime=1781650940
-#EXTINF:-1 tvg-id="思小妤" tvg-name="思小妤" group-title="卡哇伊",思小妤
-http://lasywepoinetas1.jinkangyl.com/live/cx_384348.flv
-#EXTINF:-1 tvg-id="日本av放映室" tvg-name="日本av放映室" group-title="卡哇伊",日本av放映室
-http://laoisbfhshakmahs.banmabh.xyz/live/cx_373479.flv
-#EXTINF:-1 tvg-id="悠悠～～" tvg-name="悠悠～～" group-title="卡哇伊",悠悠～～
-http://shladzetmsinet.banmabh.xyz/live/cx_376502.flv?wsSecret=a429eed4f67ec3172273f48d4775eb37&wsTime=1781643740
-#EXTINF:-1 tvg-id="小酥妻" tvg-name="小酥妻" group-title="卡哇伊",小酥妻
-http://77bo.xn--4lw519c.com/live/cx_14595.flv?wsSecret=0e146eed7bcffdb18b8de09b325276ad&wsTime=1781653329
-#EXTINF:-1 tvg-id="纯情瑶%20M-" tvg-name="纯情瑶%20M-" group-title="卡哇伊",纯情瑶%20M-
-http://1lladhaepwwsvi.sqfkkj.top/live/cx_368240.flv
-#EXTINF:-1 tvg-id="狂草精神小妹.@" tvg-name="狂草精神小妹.@" group-title="卡哇伊",狂草精神小妹.@
-http://77bo.xn--uw0as83a.com/live/cx_120.flv?wsSecret=75f59dc00009da3e3c8b5741bfff0dee&wsTime=1781516275
-#EXTINF:-1 tvg-id="小可爱c" tvg-name="小可爱c" group-title="卡哇伊",小可爱c
-http://77bo.xn--vuqy52q.com/live/cx_15110.flv?wsSecret=178acb247acc950ce3942fddd5267893&wsTime=1781653566
-#EXTINF:-1 tvg-id="魅，儿" tvg-name="魅，儿" group-title="卡哇伊",魅，儿
-http://huerbetlwla.yueyongli.top/live/cx_385633.flv
-#EXTINF:-1 tvg-id="千惠" tvg-name="千惠" group-title="卡哇伊",千惠
-http://77bo.xn--kcrp02i.com/live/cx_16156.flv?wsSecret=dcde8f61c0cbb283b4d8d11dc3a109e3&wsTime=1781653504
-#EXTINF:-1 tvg-id="轩宝" tvg-name="轩宝" group-title="卡哇伊",轩宝
-http://77bo.xn--thqp73n.com/live/cx_11284.flv?wsSecret=2c905e01ca4e15f2de9ee9e8c5f41d31&wsTime=1781654024
-#EXTINF:-1 tvg-id="国产乱伦强奸@" tvg-name="国产乱伦强奸@" group-title="卡哇伊",国产乱伦强奸@
-http://77bo.xn--fhqv92p.com/live/cx_31.flv?wsSecret=6662072851b3620c39e0c0dcb082425a&wsTime=1781581379
-#EXTINF:-1 tvg-id="小雪3" tvg-name="小雪3" group-title="卡哇伊",小雪3
-http://shladzetmsinet.banmabh.xyz/live/cx_386036.flv?wsSecret=2da5465ac90f2607e5c83204ac5db95c&wsTime=1781644234
-#EXTINF:-1 tvg-id="是你的柒柒" tvg-name="是你的柒柒" group-title="卡哇伊",是你的柒柒
-http://lasuimakertname.abrillantlee.top/live/cx_379255.flv
-#EXTINF:-1 tvg-id="哆咪呀" tvg-name="哆咪呀" group-title="卡哇伊",哆咪呀
-http://77bo.xn--thqp73n.com/live/cx_16642.flv?wsSecret=537b012017070ede911176f1ee7abbca&wsTime=1781650989
-#EXTINF:-1 tvg-id="水水呀" tvg-name="水水呀" group-title="卡哇伊",水水呀
-http://77bo.xn--kcrp02i.com/live/cx_15586.flv?wsSecret=b4c7c79c7e6bb2e12f67e9f418f00b84&wsTime=1781641091
-#EXTINF:-1 tvg-id="李佳佳4" tvg-name="李佳佳4" group-title="卡哇伊",李佳佳4
-http://osueaetkala1.yueyongli.top/live/cx_384478.flv
-#EXTINF:-1 tvg-id="蛋卷" tvg-name="蛋卷" group-title="卡哇伊",蛋卷
-http://myijapiwuewla.cssymt.com/live/cx_373355.flv?wsSecret=a0af930ab4dbcee09c4cd5c3f910835a&wsTime=1781651250
+#EXTINF:-1 tvg-id="么么" tvg-name="么么" group-title="卡哇伊",么么
+http://77bo.xn--4lw519c.com/live/cx_15415.flv?wsSecret=ed3815964ae1a20fc045e7240fff481b&wsTime=1781653625
+#EXTINF:-1 tvg-id="是雨婷呀@" tvg-name="是雨婷呀@" group-title="卡哇伊",是雨婷呀@
+http://xcrmumeetla.abrillantlee.top/live/cx_377081.flv?wsSecret=7e3194a64b2f2d8662bbcb2c55da5863&wsTime=1781664523
+#EXTINF:-1 tvg-id="优乐美o" tvg-name="优乐美o" group-title="卡哇伊",优乐美o
+http://laoisbfhshakmahs.banmabh.xyz/live/cx_358896.flv
+#EXTINF:-1 tvg-id="熙熙儿" tvg-name="熙熙儿" group-title="卡哇伊",熙熙儿
+http://77bo.xn--vuqy52q.com/live/cx_12602.flv?wsSecret=19bbe77d66005c334cd689ccbcd39b04&wsTime=1781670350
+#EXTINF:-1 tvg-id="晶晶、" tvg-name="晶晶、" group-title="卡哇伊",晶晶、
+http://lasehbehqr.sqfkkj.top/live/cx_352189.flv
+#EXTINF:-1 tvg-id="大白兔奶糖" tvg-name="大白兔奶糖" group-title="卡哇伊",大白兔奶糖
+http://lashfoaw064.abrillantlee.top/live/cx_384721.flv
+#EXTINF:-1 tvg-id="小蛋糕" tvg-name="小蛋糕" group-title="卡哇伊",小蛋糕
+http://77bo.xn--thqp73n.com/live/cx_14208.flv?wsSecret=8638d7149bafe9e7742cf7e6b2c0f3d3&wsTime=1781669750
+#EXTINF:-1 tvg-id="尤物水多多" tvg-name="尤物水多多" group-title="卡哇伊",尤物水多多
+http://laoisbfhshakmahs.banmabh.xyz/live/cx_384791.flv
+#EXTINF:-1 tvg-id="馒头比会喷可儿" tvg-name="馒头比会喷可儿" group-title="卡哇伊",馒头比会喷可儿
+http://1lladhaepwwsvi.sqfkkj.top/live/cx_382658.flv
+#EXTINF:-1 tvg-id="如霜姑娘" tvg-name="如霜姑娘" group-title="卡哇伊",如霜姑娘
+http://77bo.xn--4lw519c.com/live/cx_16662.flv?wsSecret=52a0dae2cb2d1a684fc318e06e049ee5&wsTime=1781669678
 #EXTINF:-1 tvg-id="真实探花嫖娼@" tvg-name="真实探花嫖娼@" group-title="卡哇伊",真实探花嫖娼@
 http://77bo.xn--t8w422e.com/live/cx_15710.flv?wsSecret=cd55d563dc9e217cae22fd5fc21ac0ca&wsTime=1781516337
-#EXTINF:-1 tvg-id="支付宝风控解除" tvg-name="支付宝风控解除" group-title="卡哇伊",支付宝风控解除
-https://vod.dengzhidao.cn/video/fengkong.mp4
-#EXTINF:-1 tvg-id="欧美白人黑人合集" tvg-name="欧美白人黑人合集" group-title="卡哇伊",欧美白人黑人合集
-http://xcrmumeetla.abrillantlee.top/live/cx_375008.flv?wsSecret=0eb57065b2d5197e3abce68b12a4d340&wsTime=1781359217
-#EXTINF:-1 tvg-id="凶凶的" tvg-name="凶凶的" group-title="卡哇伊",凶凶的
-http://77bo.xn--uw0as83a.com/live/cx_4003.flv?wsSecret=3f10134ff4c97db017be2fdaad2fc19a&wsTime=1781640129
-#EXTINF:-1 tvg-id="呦呦" tvg-name="呦呦" group-title="卡哇伊",呦呦
-http://77bo.xn--vuqy52q.com/live/cx_15495.flv?wsSecret=ea03e377a334cb733589c0b3583ed40e&wsTime=1781653759
-#EXTINF:-1 tvg-id="职场身体上位@" tvg-name="职场身体上位@" group-title="卡哇伊",职场身体上位@
-http://77bo.xn--fhqv92p.com/live/cx_15604.flv?wsSecret=8e2c82360204760a296ea9c9038dbfe0&wsTime=1781626622
-#EXTINF:-1 tvg-id="鹿屿森" tvg-name="鹿屿森" group-title="卡哇伊",鹿屿森
-http://laoisbfhshakmahs.banmabh.xyz/live/cx_385669.flv
-#EXTINF:-1 tvg-id="美加墨世界杯" tvg-name="美加墨世界杯" group-title="卡哇伊",美加墨世界杯
-http://77bo.xn--vuqy52q.com/live/cx_12079.flv?wsSecret=1e11ad0ee99666966bccf62b779f0fb4&wsTime=1781632980
-#EXTINF:-1 tvg-id="晓岚" tvg-name="晓岚" group-title="卡哇伊",晓岚
-http://huerbetlwla.yueyongli.top/live/cx_385795.flv
-#EXTINF:-1 tvg-id="我是你的猫" tvg-name="我是你的猫" group-title="卡哇伊",我是你的猫
-http://lasywepoinetas1.jinkangyl.com/live/cx_385556.flv
-#EXTINF:-1 tvg-id="少女乱伦@" tvg-name="少女乱伦@" group-title="卡哇伊",少女乱伦@
-http://77bo.xn--uw0as83a.com/live/cx_15966.flv?wsSecret=b29377929037f94aef542c56af5f8ae1&wsTime=1781329582
-#EXTINF:-1 tvg-id="花无缺5" tvg-name="花无缺5" group-title="卡哇伊",花无缺5
-http://xzqppsukemrla.jinkangyl.com/live/cx_378665.flv?wsSecret=d7ffb5f07637f02794d1e5542a8cb2fc&wsTime=1781652274
-#EXTINF:-1 tvg-id="孙艺珍" tvg-name="孙艺珍" group-title="卡哇伊",孙艺珍
-http://lasywepoinetas1.jinkangyl.com/live/cx_386007.flv
-#EXTINF:-1 tvg-id="单亲妈妈户外" tvg-name="单亲妈妈户外" group-title="卡哇伊",单亲妈妈户外
-http://laoisbfhshakmahs.banmabh.xyz/live/cx_376546.flv
-#EXTINF:-1 tvg-id="姐姐。" tvg-name="姐姐。" group-title="卡哇伊",姐姐。
-http://77bo.xn--t8w422e.com/live/cx_16477.flv?wsSecret=45a7fd81a80edd27e5a4c616e2748755&wsTime=1781639939
-#EXTINF:-1 tvg-id="咖啡加奶" tvg-name="咖啡加奶" group-title="卡哇伊",咖啡加奶
-http://77bo.xn--t8w422e.com/live/cx_16602.flv?wsSecret=0c127d273acbad6537897d16a5446b0f&wsTime=1781640299
+#EXTINF:-1 tvg-id="椰子冻" tvg-name="椰子冻" group-title="卡哇伊",椰子冻
+http://lashfoaw064.abrillantlee.top/live/cx_377531.flv
+#EXTINF:-1 tvg-id="宫百万" tvg-name="宫百万" group-title="卡哇伊",宫百万
+http://huerbetlwla.yueyongli.top/live/cx_374039.flv
+#EXTINF:-1 tvg-id="锦鲤甜妹" tvg-name="锦鲤甜妹" group-title="卡哇伊",锦鲤甜妹
+http://shladzetmsinet.banmabh.xyz/live/cx_384917.flv?wsSecret=1120893a5e59eb63d3cb497f70fa2f60&wsTime=1781662827
 #EXTINF:-1 tvg-id="未成年@" tvg-name="未成年@" group-title="卡哇伊",未成年@
 http://77bo.xn--fhqv92p.com/live/cx_28.flv?wsSecret=5767142de6e397e6c32bbe193a06e85c&wsTime=1781581555
-#EXTINF:-1 tvg-id="招财猫y" tvg-name="招财猫y" group-title="卡哇伊",招财猫y
-http://77bo.xn--uw0as83a.com/live/cx_15692.flv?wsSecret=cc03f5ca6e15e7049af603f44e6e7235&wsTime=1781639971
-#EXTINF:-1 tvg-id="Lucky6" tvg-name="Lucky6" group-title="卡哇伊",Lucky6
-http://xcrmumeetla.abrillantlee.top/live/cx_385283.flv?wsSecret=9850704d6ffb3a34cdff8371af183f93&wsTime=1781649435
-#EXTINF:-1 tvg-id="yoyo又又" tvg-name="yoyo又又" group-title="卡哇伊",yoyo又又
-http://lasywepoinetas1.jinkangyl.com/live/cx_385665.flv
-#EXTINF:-1 tvg-id="黑色巧克力" tvg-name="黑色巧克力" group-title="卡哇伊",黑色巧克力
-http://shladzetmsinet.banmabh.xyz/live/cx_385680.flv?wsSecret=bc3085ba6f56ac138bfd7acc905f6780&wsTime=1781652987
-#EXTINF:-1 tvg-id="娘子" tvg-name="娘子" group-title="卡哇伊",娘子
-http://77bo.xn--4lw519c.com/live/cx_16517.flv?wsSecret=052dd4f6df97ce1ccdde5326c6d6d98e&wsTime=1781653913
-#EXTINF:-1 tvg-id="美女小碗" tvg-name="美女小碗" group-title="卡哇伊",美女小碗
-http://shladzetmsinet.banmabh.xyz/live/cx_374618.flv?wsSecret=23aeaffcae52f2c6500c609a84e0174d&wsTime=1781652118
-#EXTINF:-1 tvg-id="中文字幕剧情@" tvg-name="中文字幕剧情@" group-title="卡哇伊",中文字幕剧情@
-http://77bo.xn--t8w422e.com/live/cx_8643.flv?wsSecret=8c09d335c7f15d3b7c17b6493d1aa81b&wsTime=1781516501
-#EXTINF:-1 tvg-id="人兽大战@" tvg-name="人兽大战@" group-title="卡哇伊",人兽大战@
-http://77bo.xn--fhqv92p.com/live/cx_24.flv?wsSecret=9e14f92d09133ac0fe08c9ccb380427e&wsTime=1781581498
-#EXTINF:-1 tvg-id="向小葵" tvg-name="向小葵" group-title="卡哇伊",向小葵
-http://lasuimakertname.abrillantlee.top/live/cx_385659.flv
-#EXTINF:-1 tvg-id="依依实力带飞" tvg-name="依依实力带飞" group-title="卡哇伊",依依实力带飞
-http://hlawaiounet.banmabh.xyz/live/cx_364954.flv?wsSecret=31a0ed78f69ccdf903e5ae3b39fda4b9&wsTime=1781643526
-#EXTINF:-1 tvg-id="禾茉" tvg-name="禾茉" group-title="卡哇伊",禾茉
-http://lasuimakertname.abrillantlee.top/live/cx_367061.flv
-#EXTINF:-1 tvg-id="依依77" tvg-name="依依77" group-title="卡哇伊",依依77
-http://77bo.xn--thqp73n.com/live/cx_15958.flv?wsSecret=60ff67558bc38ceb9d10d75229f5aaf7&wsTime=1781640063
-#EXTINF:-1 tvg-id="朵儿" tvg-name="朵儿" group-title="卡哇伊",朵儿
-http://77bo.xn--ypzw80d.com/live/cx_15904.flv?wsSecret=8179f946f37fd642fb5a9481a1999aa7&wsTime=1781639951
-#EXTINF:-1 tvg-id="茂密的小森林" tvg-name="茂密的小森林" group-title="卡哇伊",茂密的小森林
-http://1lladhaepwwsvi.sqfkkj.top/live/cx_380333.flv
-#EXTINF:-1 tvg-id="淼淼ck" tvg-name="淼淼ck" group-title="卡哇伊",淼淼ck
-http://77bo.xn--vuqy52q.com/live/cx_14032.flv?wsSecret=8554798359755335c841ce4113cc48d6&wsTime=1781653372
-#EXTINF:-1 tvg-id="AD钙奶a" tvg-name="AD钙奶a" group-title="卡哇伊",AD钙奶a
-http://77bo.xn--t8w422e.com/live/cx_15953.flv?wsSecret=6f553a47f94f9f1036926d10a2e63687&wsTime=1781653687
-#EXTINF:-1 tvg-id="三叶" tvg-name="三叶" group-title="卡哇伊",三叶
-http://laoisbfhshakmahs.banmabh.xyz/live/cx_380465.flv
-#EXTINF:-1 tvg-id="锦鲤甜妹" tvg-name="锦鲤甜妹" group-title="卡哇伊",锦鲤甜妹
-http://osueaetkala1.yueyongli.top/live/cx_384917.flv
-#EXTINF:-1 tvg-id="我草莓招了" tvg-name="我草莓招了" group-title="卡哇伊",我草莓招了
-http://77bo.xn--thqp73n.com/live/cx_7191.flv?wsSecret=41185ef9e936b64d6f208d651ba6ccd6&wsTime=1781653931
-#EXTINF:-1 tvg-id="幸运果儿" tvg-name="幸运果儿" group-title="卡哇伊",幸运果儿
-http://77bo.xn--thqp73n.com/live/cx_118.flv?wsSecret=6a632a40682d264a73136565758d13d9&wsTime=1781654432
-#EXTINF:-1 tvg-id="海澄" tvg-name="海澄" group-title="卡哇伊",海澄
-http://77bo.xn--t8w422e.com/live/cx_15225.flv?wsSecret=72c5cbf51454892444452927b9181570&wsTime=1781639949
+#EXTINF:-1 tvg-id="满满" tvg-name="满满" group-title="卡哇伊",满满
+http://77bo.xn--vuqy52q.com/live/cx_11277.flv?wsSecret=1809fdae0dfdc183ed468ab89e95fff7&wsTime=1781668588
 #EXTINF:-1 tvg-id="户外打野@" tvg-name="户外打野@" group-title="卡哇伊",户外打野@
 http://77bo.xn--fhqv92p.com/live/cx_15642.flv?wsSecret=ea0cf262f39418677ac770dace819bfe&wsTime=1781580895
-#EXTINF:-1 tvg-id="大宝宝姐" tvg-name="大宝宝姐" group-title="卡哇伊",大宝宝姐
-http://huerbetlwla.yueyongli.top/live/cx_370617.flv
-#EXTINF:-1 tvg-id="北栀" tvg-name="北栀" group-title="卡哇伊",北栀
-http://osueaetkala1.yueyongli.top/live/cx_361503.flv
-#EXTINF:-1 tvg-id="小小的人儿" tvg-name="小小的人儿" group-title="卡哇伊",小小的人儿
-http://huerbetlwla.yueyongli.top/live/cx_386115.flv
-#EXTINF:-1 tvg-id="清欢" tvg-name="清欢" group-title="卡哇伊",清欢
-http://77bo.xn--t8w422e.com/live/cx_16155.flv?wsSecret=f4d331e068908d22d78bbb59aa437841&wsTime=1781653948
-#EXTINF:-1 tvg-id="国产三级片@" tvg-name="国产三级片@" group-title="卡哇伊",国产三级片@
-http://77bo.xn--fhqv92p.com/live/cx_16585.flv?wsSecret=39bdd4407945d5e8f5a8c527513471ea&wsTime=1781550350
-#EXTINF:-1 tvg-id="橙子5" tvg-name="橙子5" group-title="卡哇伊",橙子5
-http://77bo.xn--thqp73n.com/live/cx_16718.flv?wsSecret=a0e6060cd7fafdfe2418f211e85c76d9&wsTime=1781639710
-#EXTINF:-1 tvg-id="微恩" tvg-name="微恩" group-title="卡哇伊",微恩
-http://huerbetlwla.yueyongli.top/live/cx_385906.flv
-#EXTINF:-1 tvg-id="小花妹" tvg-name="小花妹" group-title="卡哇伊",小花妹
-http://77bo.xn--kcrp02i.com/live/cx_12443.flv?wsSecret=06809de630fddb5598ffc46f66bfa87e&wsTime=1781640860
-#EXTINF:-1 tvg-id="糖卷卷%26" tvg-name="糖卷卷%26" group-title="卡哇伊",糖卷卷%26
-http://lasehbehqr.sqfkkj.top/live/cx_368659.flv
-#EXTINF:-1 tvg-id="玥玥吖" tvg-name="玥玥吖" group-title="卡哇伊",玥玥吖
-http://77bo.xn--vuqy52q.com/live/cx_11275.flv?wsSecret=ac9a6575108b8b16394352b1c39c9d2b&wsTime=1781654178
-#EXTINF:-1 tvg-id="豆豆甜" tvg-name="豆豆甜" group-title="卡哇伊",豆豆甜
-http://77bo.xn--vuqy52q.com/live/cx_9747.flv?wsSecret=df7bc20ccbc462611fec46ee59541541&wsTime=1781640885
-#EXTINF:-1 tvg-id="Cos二次元@" tvg-name="Cos二次元@" group-title="卡哇伊",Cos二次元@
-http://77bo.xn--4lw519c.com/live/cx_32.flv?wsSecret=53062816aa939684956ad224d9300d86&wsTime=1781516234
+#EXTINF:-1 tvg-id="控控" tvg-name="控控" group-title="卡哇伊",控控
+http://1lladhaepwwsvi.sqfkkj.top/live/cx_353436.flv
+#EXTINF:-1 tvg-id="kio小乔流水" tvg-name="kio小乔流水" group-title="卡哇伊",kio小乔流水
+http://lasuimakertname.abrillantlee.top/live/cx_369469.flv
+#EXTINF:-1 tvg-id="a蜜桃" tvg-name="a蜜桃" group-title="卡哇伊",a蜜桃
+http://lasywepoinetas1.jinkangyl.com/live/cx_381714.flv
+#EXTINF:-1 tvg-id="日本av放映室" tvg-name="日本av放映室" group-title="卡哇伊",日本av放映室
+http://laoisbfhshakmahs.banmabh.xyz/live/cx_373479.flv
+#EXTINF:-1 tvg-id="苦牙妹" tvg-name="苦牙妹" group-title="卡哇伊",苦牙妹
+http://lashfoaw064.abrillantlee.top/live/cx_386097.flv
+#EXTINF:-1 tvg-id="风信子" tvg-name="风信子" group-title="卡哇伊",风信子
+http://lasehbehqr.sqfkkj.top/live/cx_385823.flv
+#EXTINF:-1 tvg-id="半熟芝士" tvg-name="半熟芝士" group-title="卡哇伊",半熟芝士
+http://lasuimakertname.abrillantlee.top/live/cx_371833.flv
+#EXTINF:-1 tvg-id="白洁" tvg-name="白洁" group-title="卡哇伊",白洁
+http://77bo.xn--uw0as83a.com/live/cx_15297.flv?wsSecret=c2bcd0b6fa2c8d428c3d589a0f050713&wsTime=1781669205
+#EXTINF:-1 tvg-id="阿花" tvg-name="阿花" group-title="卡哇伊",阿花
+http://77bo.xn--uw0as83a.com/live/cx_16315.flv?wsSecret=11f78f597f01bf134796f5aebce068a0&wsTime=1781668189
+#EXTINF:-1 tvg-id="人兽大战@" tvg-name="人兽大战@" group-title="卡哇伊",人兽大战@
+http://77bo.xn--fhqv92p.com/live/cx_24.flv?wsSecret=9e14f92d09133ac0fe08c9ccb380427e&wsTime=1781581498
+#EXTINF:-1 tvg-id="咬一口苹果" tvg-name="咬一口苹果" group-title="卡哇伊",咬一口苹果
+http://laoisbfhshakmahs.banmabh.xyz/live/cx_386022.flv
+#EXTINF:-1 tvg-id="婷妹妹" tvg-name="婷妹妹" group-title="卡哇伊",婷妹妹
+http://lasuimakertname.abrillantlee.top/live/cx_366485.flv
+#EXTINF:-1 tvg-id="%20小丽" tvg-name="%20小丽" group-title="卡哇伊",%20小丽
+http://lashfoaw064.abrillantlee.top/live/cx_386098.flv
+#EXTINF:-1 tvg-id="按摩馆的秘密@" tvg-name="按摩馆的秘密@" group-title="卡哇伊",按摩馆的秘密@
+http://77bo.xn--fhqv92p.com/live/cx_15652.flv?wsSecret=8cbb50dd95ec0b790193f96c73f37f32&wsTime=1781581430
+#EXTINF:-1 tvg-id="一线天小少妇" tvg-name="一线天小少妇" group-title="卡哇伊",一线天小少妇
+http://laoisbfhshakmahs.banmabh.xyz/live/cx_384201.flv
+#EXTINF:-1 tvg-id="缅北猪仔@" tvg-name="缅北猪仔@" group-title="卡哇伊",缅北猪仔@
+http://77bo.xn--fhqv92p.com/live/cx_15601.flv?wsSecret=baae9c936d854fd81cf04e6c4d362207&wsTime=1781581332
+#EXTINF:-1 tvg-id="美加墨世界杯" tvg-name="美加墨世界杯" group-title="卡哇伊",美加墨世界杯
+http://shladzetmsinet.banmabh.xyz/live/cx_375616.flv?wsSecret=dd82e5b33702688289c61001cf7ef732&wsTime=1781635480
+#EXTINF:-1 tvg-id="安安宝贝儿" tvg-name="安安宝贝儿" group-title="卡哇伊",安安宝贝儿
+http://77bo.xn--uw0as83a.com/live/cx_16154.flv?wsSecret=c5a62e49b0a9a3067956bcebb99c59a5&wsTime=1781668752
+#EXTINF:-1 tvg-id="珍珍爱你" tvg-name="珍珍爱你" group-title="卡哇伊",珍珍爱你
+http://lasuimakertname.abrillantlee.top/live/cx_386100.flv
+#EXTINF:-1 tvg-id="互舔香香" tvg-name="互舔香香" group-title="卡哇伊",互舔香香
+http://xcrmumeetla.abrillantlee.top/live/cx_386009.flv?wsSecret=30b44180a99cb8902594875b8b050cef&wsTime=1781671948
+#EXTINF:-1 tvg-id="貂蝉" tvg-name="貂蝉" group-title="卡哇伊",貂蝉
+http://shladzetmsinet.banmabh.xyz/live/cx_385909.flv?wsSecret=6a019bac0ad729abcb2f84710f335d3b&wsTime=1781665660
+#EXTINF:-1 tvg-id="依依实力带飞" tvg-name="依依实力带飞" group-title="卡哇伊",依依实力带飞
+http://hlawaiounet.banmabh.xyz/live/cx_364954.flv?wsSecret=8af72baca5299a690ccefa20dd5787d3&wsTime=1781665223
+#EXTINF:-1 tvg-id="欧美白人黑人合集" tvg-name="欧美白人黑人合集" group-title="卡哇伊",欧美白人黑人合集
+http://xcrmumeetla.abrillantlee.top/live/cx_375008.flv?wsSecret=0eb57065b2d5197e3abce68b12a4d340&wsTime=1781359217
+#EXTINF:-1 tvg-id="苏妲己7" tvg-name="苏妲己7" group-title="卡哇伊",苏妲己7
+http://huerbetlwla.yueyongli.top/live/cx_385591.flv
+#EXTINF:-1 tvg-id="Bella" tvg-name="Bella" group-title="卡哇伊",Bella
+http://lasywepoinetas1.jinkangyl.com/live/cx_348885.flv
+#EXTINF:-1 tvg-id="玫瑰姑娘" tvg-name="玫瑰姑娘" group-title="卡哇伊",玫瑰姑娘
+http://lasuimakertname.abrillantlee.top/live/cx_385821.flv
+#EXTINF:-1 tvg-id="金西西" tvg-name="金西西" group-title="卡哇伊",金西西
+http://lasywepoinetas1.jinkangyl.com/live/cx_16397.flv
+#EXTINF:-1 tvg-id="星辰呀" tvg-name="星辰呀" group-title="卡哇伊",星辰呀
+http://lasuimakertname.abrillantlee.top/live/cx_374986.flv
+#EXTINF:-1 tvg-id="职场身体上位@" tvg-name="职场身体上位@" group-title="卡哇伊",职场身体上位@
+http://77bo.xn--fhqv92p.com/live/cx_15604.flv?wsSecret=c7582cd70cec5838284b53a4c42b7a71&wsTime=1781667782
+#EXTINF:-1 tvg-id="眯崽" tvg-name="眯崽" group-title="卡哇伊",眯崽
+http://lasehbehqr.sqfkkj.top/live/cx_383425.flv
+#EXTINF:-1 tvg-id="小六月吖" tvg-name="小六月吖" group-title="卡哇伊",小六月吖
+http://lasehbehqr.sqfkkj.top/live/cx_368405.flv
+#EXTINF:-1 tvg-id="心心念" tvg-name="心心念" group-title="卡哇伊",心心念
+http://lasuimakertname.abrillantlee.top/live/cx_385832.flv
+#EXTINF:-1 tvg-id="哇韩水水" tvg-name="哇韩水水" group-title="卡哇伊",哇韩水水
+http://lasuimakertname.abrillantlee.top/live/cx_366905.flv
+#EXTINF:-1 tvg-id="不爱穿内裤" tvg-name="不爱穿内裤" group-title="卡哇伊",不爱穿内裤
+http://1lladhaepwwsvi.sqfkkj.top/live/cx_376568.flv
+#EXTINF:-1 tvg-id="奶糖可甜" tvg-name="奶糖可甜" group-title="卡哇伊",奶糖可甜
+http://77bo.xn--thqp73n.com/live/cx_5789.flv?wsSecret=975178705fdd5860df2e5c1cc7ae046a&wsTime=1781674956
+#EXTINF:-1 tvg-id="一对性感情侣" tvg-name="一对性感情侣" group-title="卡哇伊",一对性感情侣
+http://huerbetlwla.yueyongli.top/live/cx_383343.flv
+#EXTINF:-1 tvg-id="月落星沉" tvg-name="月落星沉" group-title="卡哇伊",月落星沉
+http://xcrmumeetla.abrillantlee.top/live/cx_371517.flv?wsSecret=801f75b3a5dead0f9ffa12e8d35168ad&wsTime=1781667418
+#EXTINF:-1 tvg-id="晶晶儿" tvg-name="晶晶儿" group-title="卡哇伊",晶晶儿
+http://osueaetkala1.yueyongli.top/live/cx_385700.flv
+#EXTINF:-1 tvg-id="多米，" tvg-name="多米，" group-title="卡哇伊",多米，
+http://lasuimakertname.abrillantlee.top/live/cx_364327.flv
+#EXTINF:-1 tvg-id="Kingly" tvg-name="Kingly" group-title="卡哇伊",Kingly
+http://1lladhaepwwsvi.sqfkkj.top/live/cx_376884.flv
+#EXTINF:-1 tvg-id="吐司耶耶" tvg-name="吐司耶耶" group-title="卡哇伊",吐司耶耶
+http://osueaetkala1.yueyongli.top/live/cx_379004.flv
+#EXTINF:-1 tvg-id="晚晚晚晚" tvg-name="晚晚晚晚" group-title="卡哇伊",晚晚晚晚
+http://lasywepoinetas1.jinkangyl.com/live/cx_385461.flv
+#EXTINF:-1 tvg-id="国产乱伦强奸@" tvg-name="国产乱伦强奸@" group-title="卡哇伊",国产乱伦强奸@
+http://77bo.xn--fhqv92p.com/live/cx_31.flv?wsSecret=6662072851b3620c39e0c0dcb082425a&wsTime=1781581379
+#EXTINF:-1 tvg-id="熊猫茶茶" tvg-name="熊猫茶茶" group-title="卡哇伊",熊猫茶茶
+http://77bo.xn--kcrp02i.com/live/cx_15817.flv?wsSecret=0aa539eba379906ccbe7c9b464acc5d2&wsTime=1781669391
+#EXTINF:-1 tvg-id="宣宝u5" tvg-name="宣宝u5" group-title="卡哇伊",宣宝u5
+http://77bo.xn--fhqv92p.com/live/cx_16371.flv?wsSecret=8c411b4f14f5f9f772c20cb2a08b3c82&wsTime=1781668583
+#EXTINF:-1 tvg-id="欲火小妖" tvg-name="欲火小妖" group-title="卡哇伊",欲火小妖
+http://77bo.xn--4lw519c.com/live/cx_15374.flv?wsSecret=c489bb4be436eba2b9e56de66cd6a136&wsTime=1781668516
+#EXTINF:-1 tvg-id="小Yo" tvg-name="小Yo" group-title="卡哇伊",小Yo
+http://xcrmumeetla.abrillantlee.top/live/cx_385802.flv?wsSecret=f21e60a58af92da347187c9fc5cfa452&wsTime=1781673029
+#EXTINF:-1 tvg-id="后入希希要用力" tvg-name="后入希希要用力" group-title="卡哇伊",后入希希要用力
+http://xcrmumeetla.abrillantlee.top/live/cx_354263.flv?wsSecret=3ece901ce6893e037c53f75e2de61a4e&wsTime=1781674715
+#EXTINF:-1 tvg-id="向晚芝" tvg-name="向晚芝" group-title="卡哇伊",向晚芝
+http://77bo.xn--4lw519c.com/live/cx_15811.flv?wsSecret=a62784d462980f4be9f96c21b6f79bf0&wsTime=1781672814
+#EXTINF:-1 tvg-id="极品奶昔" tvg-name="极品奶昔" group-title="卡哇伊",极品奶昔
+http://1lladhaepwwsvi.sqfkkj.top/live/cx_384694.flv
+#EXTINF:-1 tvg-id="小懒猪猪" tvg-name="小懒猪猪" group-title="卡哇伊",小懒猪猪
+http://shladzetmsinet.banmabh.xyz/live/cx_375273.flv?wsSecret=390187a5d738ed4b4348716acc50b3ab&wsTime=1781675060
+#EXTINF:-1 tvg-id="京京的美腿" tvg-name="京京的美腿" group-title="卡哇伊",京京的美腿
+http://lasuimakertname.abrillantlee.top/live/cx_385804.flv
+#EXTINF:-1 tvg-id="豆浆妹" tvg-name="豆浆妹" group-title="卡哇伊",豆浆妹
+http://77bo.xn--fhqv92p.com/live/cx_16665.flv?wsSecret=ebeba87a48adaad0c3bf28c5549db488&wsTime=1781668838
+#EXTINF:-1 tvg-id="是西瓜呀" tvg-name="是西瓜呀" group-title="卡哇伊",是西瓜呀
+http://77bo.xn--kcrp02i.com/live/cx_13462.flv?wsSecret=57da3acb799261fa1fa568326de162b6&wsTime=1781668419
+#EXTINF:-1 tvg-id="田野寻弯" tvg-name="田野寻弯" group-title="卡哇伊",田野寻弯
+http://lasehbehqr.sqfkkj.top/live/cx_367356.flv
+#EXTINF:-1 tvg-id="期7" tvg-name="期7" group-title="卡哇伊",期7
+http://77bo.xn--t8w422e.com/live/cx_16557.flv?wsSecret=f6d24acdcccbcc95f3571669588555a4&wsTime=1781668284
 #EXTINF:-1 tvg-id="暖暖%7E" tvg-name="暖暖%7E" group-title="卡哇伊",暖暖%7E
 http://xcrmumeetla.abrillantlee.top/live/cx_380325.flv?wsSecret=f1e99eb0860896432e77c0d22cd49138&wsTime=1781654390
-#EXTINF:-1 tvg-id="朵朵呀" tvg-name="朵朵呀" group-title="卡哇伊",朵朵呀
-http://77bo.xn--thqp73n.com/live/cx_14895.flv?wsSecret=64f32bb41628d20edbb1016a98b92057&wsTime=1781653388
-#EXTINF:-1 tvg-id="柒萌妹子" tvg-name="柒萌妹子" group-title="卡哇伊",柒萌妹子
-http://77bo.xn--thqp73n.com/live/cx_9712.flv?wsSecret=98d98629b53ba8b719e45b36deeee5e1&wsTime=1781654203
-#EXTINF:-1 tvg-id="小萌萌416" tvg-name="小萌萌416" group-title="卡哇伊",小萌萌416
-http://xlajunasjwqoet.cssymt.com/live/cx_378816.flv?wsSecret=c6ded92b53ea1f508d16620dadd0f27e&wsTime=1781637739
-#EXTINF:-1 tvg-id="屁墩墩" tvg-name="屁墩墩" group-title="卡哇伊",屁墩墩
-http://77bo.xn--4lw519c.com/live/cx_13460.flv?wsSecret=2f265ba415e8dc72a8cb647de45c5313&wsTime=1781640519
-#EXTINF:-1 tvg-id="林木木" tvg-name="林木木" group-title="卡哇伊",林木木
-http://lasywepoinetas1.jinkangyl.com/live/cx_386049.flv
-#EXTINF:-1 tvg-id="蜜儿宝宝" tvg-name="蜜儿宝宝" group-title="卡哇伊",蜜儿宝宝
-http://77bo.xn--uw0as83a.com/live/cx_13819.flv?wsSecret=41de9a043873ddefeb04367a16db4187&wsTime=1781653980
-#EXTINF:-1 tvg-id="夕夕CC" tvg-name="夕夕CC" group-title="卡哇伊",夕夕CC
-http://lasuimakertname.abrillantlee.top/live/cx_381248.flv
-#EXTINF:-1 tvg-id="诗诗吖" tvg-name="诗诗吖" group-title="卡哇伊",诗诗吖
-http://77bo.xn--ypzw80d.com/live/cx_7584.flv?wsSecret=8f4a1c3dec2fb1fef1d7fbdc5fd19505&wsTime=1781647656
-#EXTINF:-1 tvg-id="小狐狸妹子" tvg-name="小狐狸妹子" group-title="卡哇伊",小狐狸妹子
-http://77bo.xn--t8w422e.com/live/cx_14570.flv?wsSecret=cf5b13c030606d06561d6493cf0952bd&wsTime=1781654425
-#EXTINF:-1 tvg-id="姐姐湿了" tvg-name="姐姐湿了" group-title="卡哇伊",姐姐湿了
-http://lasuimakertname.abrillantlee.top/live/cx_383947.flv
-#EXTINF:-1 tvg-id="玥贝" tvg-name="玥贝" group-title="卡哇伊",玥贝
-http://77bo.xn--uw0as83a.com/live/cx_14223.flv?wsSecret=972204e0c1ca4a0950b028311aabe192&wsTime=1781640127
-#EXTINF:-1 tvg-id="翘臀小鹿鹿" tvg-name="翘臀小鹿鹿" group-title="卡哇伊",翘臀小鹿鹿
-http://lashfoaw064.abrillantlee.top/live/cx_376425.flv
-#EXTINF:-1 tvg-id="岛国一本道东京热" tvg-name="岛国一本道东京热" group-title="咪狐",岛国一本道东京热
+#EXTINF:-1 tvg-id="苏恬" tvg-name="苏恬" group-title="卡哇伊",苏恬
+http://1lladhaepwwsvi.sqfkkj.top/live/cx_381511.flv
+#EXTINF:-1 tvg-id="小呆呆" tvg-name="小呆呆" group-title="卡哇伊",小呆呆
+http://77bo.xn--uw0as83a.com/live/cx_16704.flv?wsSecret=3a21798c697f4eb4f3e6057379c3f7d4&wsTime=1781667637
+#EXTINF:-1 tvg-id="涵涵子" tvg-name="涵涵子" group-title="卡哇伊",涵涵子
+http://myijapiwuewla.cssymt.com/live/cx_379604.flv?wsSecret=4d55d299e5a851d4520aab5b901bc9db&wsTime=1781668991
+#EXTINF:-1 tvg-id="福猫" tvg-name="福猫" group-title="卡哇伊",福猫
+http://lasuimakertname.abrillantlee.top/live/cx_385676.flv
+#EXTINF:-1 tvg-id="糸咩咩呀" tvg-name="糸咩咩呀" group-title="卡哇伊",糸咩咩呀
+http://xzqppsukemrla.jinkangyl.com/live/cx_379355.flv?wsSecret=439eb9a1c2ec5edb0f9a4f9d6b6329e7&wsTime=1781668669
+#EXTINF:-1 tvg-id="大奶妞" tvg-name="大奶妞" group-title="卡哇伊",大奶妞
+http://shladzetmsinet.banmabh.xyz/live/cx_385759.flv?wsSecret=adf8b24f85bf10e0a311b627160ca4ba&wsTime=1781671399
+#EXTINF:-1 tvg-id="腿模熙熙" tvg-name="腿模熙熙" group-title="卡哇伊",腿模熙熙
+http://xcrmumeetla.abrillantlee.top/live/cx_385806.flv?wsSecret=78b232771e3984597d7aa3737d19fdf0&wsTime=1781668937
+#EXTINF:-1 tvg-id="曦偌" tvg-name="曦偌" group-title="卡哇伊",曦偌
+http://lasehbehqr.sqfkkj.top/live/cx_385527.flv
+#EXTINF:-1 tvg-id="大白兔l" tvg-name="大白兔l" group-title="卡哇伊",大白兔l
+http://77bo.xn--ypzw80d.com/live/cx_15653.flv?wsSecret=d7c6407794fb1f4986a059adfd4dc9ae&wsTime=1781667685
+#EXTINF:-1 tvg-id="梦梦Ysl" tvg-name="梦梦Ysl" group-title="卡哇伊",梦梦Ysl
+http://shladzetmsinet.banmabh.xyz/live/cx_386077.flv?wsSecret=efe3938799ae992a9fb1b2b9404ed728&wsTime=1781667197
+#EXTINF:-1 tvg-id="你的粥粥" tvg-name="你的粥粥" group-title="卡哇伊",你的粥粥
+http://shladzetmsinet.banmabh.xyz/live/cx_385413.flv?wsSecret=23105e191067d6ae843954d0b61586df&wsTime=1781673272
+#EXTINF:-1 tvg-id="糖卷卷%26" tvg-name="糖卷卷%26" group-title="卡哇伊",糖卷卷%26
+http://lashfoaw064.abrillantlee.top/live/cx_368659.flv
+#EXTINF:-1 tvg-id="安克娜娜" tvg-name="安克娜娜" group-title="卡哇伊",安克娜娜
+http://lasehbehqr.sqfkkj.top/live/cx_380928.flv
+#EXTINF:-1 tvg-id="狂草精神小妹.@" tvg-name="狂草精神小妹.@" group-title="卡哇伊",狂草精神小妹.@
+http://77bo.xn--uw0as83a.com/live/cx_120.flv?wsSecret=75f59dc00009da3e3c8b5741bfff0dee&wsTime=1781516275
+#EXTINF:-1 tvg-id="耶斯" tvg-name="耶斯" group-title="卡哇伊",耶斯
+http://xcrmumeetla.abrillantlee.top/live/cx_385355.flv?wsSecret=50a4df28f85a40237edbbb35bfc0c475&wsTime=1781672441
+#EXTINF:-1 tvg-id="不知名美女" tvg-name="不知名美女" group-title="卡哇伊",不知名美女
+http://xcrmumeetla.abrillantlee.top/live/cx_381356.flv?wsSecret=dc6c0e46ea3fb9707c4d7cbcbb91a53f&wsTime=1781669603
+#EXTINF:-1 tvg-id="岚岚来了" tvg-name="岚岚来了" group-title="卡哇伊",岚岚来了
+http://huerbetlwla.yueyongli.top/live/cx_380815.flv
+#EXTINF:-1 tvg-id="岛国一本道东京热" tvg-name="岛国一本道东京热" group-title="卡哇伊",岛国一本道东京热
 http://1lladhaepwwsvi.sqfkkj.top/live/cx_385550.flv
-#EXTINF:-1 tvg-id="奶糖11" tvg-name="奶糖11" group-title="咪狐",奶糖11
-http://lashfoaw064.abrillantlee.top/live/cx_385920.flv
-#EXTINF:-1 tvg-id="池穗" tvg-name="池穗" group-title="咪狐",池穗
-http://shladzetmsinet.banmabh.xyz/live/cx_385852.flv?wsSecret=4ba0e1210786f867a6b711abfc897b54&wsTime=1781654385
-#EXTINF:-1 tvg-id="咖啡你冲不冲" tvg-name="咖啡你冲不冲" group-title="咪狐",咖啡你冲不冲
-http://77bo.xn--fhqv92p.com/live/cx_16067.flv?wsSecret=aaf513cfac8be4c2540a7428f006db70&wsTime=1781641587
-#EXTINF:-1 tvg-id="亲亲丽丽" tvg-name="亲亲丽丽" group-title="咪狐",亲亲丽丽
-http://77bo.xn--vuqy52q.com/live/cx_15527.flv?wsSecret=6092f58b0e38e46918b28c94bd7ba597&wsTime=1781640471
-#EXTINF:-1 tvg-id="百变小迪" tvg-name="百变小迪" group-title="咪狐",百变小迪
-http://77bo.xn--vuqy52q.com/live/cx_5868.flv?wsSecret=4c204b94fdcf8283e81d5bdce2200626&wsTime=1781653224
-#EXTINF:-1 tvg-id="宝吖" tvg-name="宝吖" group-title="咪狐",宝吖
-http://lasehbehqr.sqfkkj.top/live/cx_385058.flv
-#EXTINF:-1 tvg-id="赵格格绿播" tvg-name="赵格格绿播" group-title="咪狐",赵格格绿播
-http://77bo.xn--kcrp02i.com/live/cx_13228.flv?wsSecret=b42a73a93b7044dc4db4ecf72c6831e5&wsTime=1781647021
-#EXTINF:-1 tvg-id="深情女人" tvg-name="深情女人" group-title="咪狐",深情女人
-http://lasehbehqr.sqfkkj.top/live/cx_386094.flv
-#EXTINF:-1 tvg-id="小耳朵吖" tvg-name="小耳朵吖" group-title="咪狐",小耳朵吖
-http://77bo.xn--kcrp02i.com/live/cx_11374.flv?wsSecret=c626a3b90c81d61ead6275b159272a26&wsTime=1781653273
-#EXTINF:-1 tvg-id="迪丽美娜" tvg-name="迪丽美娜" group-title="咪狐",迪丽美娜
-http://77bo.xn--fhqv92p.com/live/cx_16507.flv?wsSecret=693e11f2e128d71030920617a74e578e&wsTime=1781654405
-#EXTINF:-1 tvg-id="清菀" tvg-name="清菀" group-title="花蝴蝶",清菀
-http://77bo.xn--kcrp02i.com/live/cx_12997.flv?wsSecret=bbd7d2b3013dc8dc9fba40ec839d7af4&wsTime=1781639908
-#EXTINF:-1 tvg-id="么么" tvg-name="么么" group-title="蜜桃",么么
-http://77bo.xn--4lw519c.com/live/cx_15415.flv?wsSecret=ed3815964ae1a20fc045e7240fff481b&wsTime=1781653625
-#EXTINF:-1 tvg-id="思甜甜" tvg-name="思甜甜" group-title="LOVE",思甜甜
-http://huerbetlwla.yueyongli.top/live/cx_378393.flv
+#EXTINF:-1 tvg-id="浅夹哥哥心" tvg-name="浅夹哥哥心" group-title="卡哇伊",浅夹哥哥心
+http://77bo.xn--kcrp02i.com/live/cx_15658.flv?wsSecret=543c6b52472f0254d3e825bd1cfc4618&wsTime=1781667429
+#EXTINF:-1 tvg-id="歪嘴鲨鱼宝" tvg-name="歪嘴鲨鱼宝" group-title="卡哇伊",歪嘴鲨鱼宝
+http://lasuimakertname.abrillantlee.top/live/cx_376465.flv
+#EXTINF:-1 tvg-id="热舞晴晴子" tvg-name="热舞晴晴子" group-title="卡哇伊",热舞晴晴子
+http://osueaetkala1.yueyongli.top/live/cx_367858.flv
+#EXTINF:-1 tvg-id="中文字幕剧情@" tvg-name="中文字幕剧情@" group-title="卡哇伊",中文字幕剧情@
+http://77bo.xn--t8w422e.com/live/cx_8643.flv?wsSecret=8c09d335c7f15d3b7c17b6493d1aa81b&wsTime=1781516501
+#EXTINF:-1 tvg-id="支付宝风控解除" tvg-name="支付宝风控解除" group-title="卡哇伊",支付宝风控解除
+https://vod.dengzhidao.cn/video/fengkong.mp4
+#EXTINF:-1 tvg-id="豪女人" tvg-name="豪女人" group-title="卡哇伊",豪女人
+http://shladzetmsinet.banmabh.xyz/live/cx_385720.flv?wsSecret=edea6f807a0e05595a9097437a2dbe21&wsTime=1781664888
+#EXTINF:-1 tvg-id="比心" tvg-name="比心" group-title="卡哇伊",比心
+http://77bo.xn--vuqy52q.com/live/cx_9357.flv?wsSecret=a0ebb2d9df560ad98da4393e55a29236&wsTime=1781668789
+#EXTINF:-1 tvg-id="寂寞小久" tvg-name="寂寞小久" group-title="卡哇伊",寂寞小久
+http://huerbetlwla.yueyongli.top/live/cx_360482.flv
+#EXTINF:-1 tvg-id="互舔甜甜" tvg-name="互舔甜甜" group-title="卡哇伊",互舔甜甜
+http://lashfoaw064.abrillantlee.top/live/cx_386037.flv
+#EXTINF:-1 tvg-id="陆熙儿" tvg-name="陆熙儿" group-title="咪狐",陆熙儿
+http://77bo.xn--thqp73n.com/live/cx_12275.flv?wsSecret=fde8e19074901c6dd01ef87d93e12e98&wsTime=1781670337
+#EXTINF:-1 tvg-id="香香香公主" tvg-name="香香香公主" group-title="咪狐",香香香公主
+http://77bo.xn--t8w422e.com/live/cx_16150.flv?wsSecret=0431af5e4dabfd86b7d840287e823a27&wsTime=1781669327
+#EXTINF:-1 tvg-id="怡怡宝" tvg-name="怡怡宝" group-title="咪狐",怡怡宝
+http://lashfoaw064.abrillantlee.top/live/cx_385694.flv
+#EXTINF:-1 tvg-id="国产三级片@" tvg-name="国产三级片@" group-title="咪狐",国产三级片@
+http://77bo.xn--fhqv92p.com/live/cx_16585.flv?wsSecret=39bdd4407945d5e8f5a8c527513471ea&wsTime=1781550350
+#EXTINF:-1 tvg-id="荷塘小瑶" tvg-name="荷塘小瑶" group-title="咪狐",荷塘小瑶
+http://laoisbfhshakmahs.banmabh.xyz/live/cx_385363.flv
+#EXTINF:-1 tvg-id="Cos二次元@" tvg-name="Cos二次元@" group-title="咪狐",Cos二次元@
+http://77bo.xn--4lw519c.com/live/cx_32.flv?wsSecret=53062816aa939684956ad224d9300d86&wsTime=1781516234
+#EXTINF:-1 tvg-id="香飘飘奶茶" tvg-name="香飘飘奶茶" group-title="咪狐",香飘飘奶茶
+http://xcrmumeetla.abrillantlee.top/live/cx_385698.flv?wsSecret=537b5fe5780894c3580db96885b1fa2b&wsTime=1781665789
+#EXTINF:-1 tvg-id="乖子不乖" tvg-name="乖子不乖" group-title="咪狐",乖子不乖
+http://lasywepoinetas1.jinkangyl.com/live/cx_384252.flv
+#EXTINF:-1 tvg-id="痞桃吖" tvg-name="痞桃吖" group-title="咪狐",痞桃吖
+http://lasehbehqr.sqfkkj.top/live/cx_364965.flv
+#EXTINF:-1 tvg-id="大咪咪妹妹" tvg-name="大咪咪妹妹" group-title="咪狐",大咪咪妹妹
+http://77bo.xn--thqp73n.com/live/cx_16456.flv?wsSecret=02e2a429ca9d4b9f1c8a012e086fe25e&wsTime=1781669630
+#EXTINF:-1 tvg-id="小纯纯！" tvg-name="小纯纯！" group-title="花蝴蝶",小纯纯！
+http://lashfoaw064.abrillantlee.top/live/cx_378676.flv
+#EXTINF:-1 tvg-id="脆脆脆脆鲨." tvg-name="脆脆脆脆鲨." group-title="花蝴蝶",脆脆脆脆鲨.
+http://lashfoaw064.abrillantlee.top/live/cx_357874.flv
+#EXTINF:-1 tvg-id="7喜" tvg-name="7喜" group-title="蜜桃",7喜
+http://77bo.xn--uw0as83a.com/live/cx_14544.flv?wsSecret=630fddef94cc7d104eda51c1454b1060&wsTime=1781668214
+#EXTINF:-1 tvg-id="可可曦" tvg-name="可可曦" group-title="番茄社区",可可曦
+http://77bo.xn--4lw519c.com/live/cx_11796.flv?wsSecret=263e8457704df5c138693d273b609303&wsTime=1781668822
